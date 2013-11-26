@@ -1,0 +1,701 @@
+
+{
+	"id" : "beer",
+	"varieties": [
+		{
+			"id": "ale",
+			"label": "ALE",
+			"description": "",
+			"varieties": [
+				{
+					"id": "englishpaleale",
+					"label": "ENGLISH PALE ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "standardordinarybitter",
+							"label": "STANDARD ORDINARY BITTER",
+							"description": ""
+						},
+						{
+							"id": "specialbestbitter",
+							"label": "SPECIAL / BEST BITTER",
+							"description": ""
+						},
+						{
+							"id": "extraspecialstrongbitter",
+							"label": "EXTRA SPECIAL / STRONG BITTER",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "scottishandirishale",
+					"label": "SCOTTISH AND IRISH ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "scottishlight60",
+							"label": "SCOTTISH LIGHT 60",
+							"description": ""
+						},
+						{
+							"id": "scottishheavy70",
+							"label": "SCOTTISH HEAVY 70",
+							"description": ""
+						},
+						{
+							"id": "scottishexport80",
+							"label": "SCOTTISH EXPORT 80",
+							"description": ""
+						},
+						{
+							"id": "irishredale",
+							"label": "IRISH RED ALE",
+							"description": ""
+						},
+						{
+							"id": "scotchstrongale",
+							"label": "SCOTCH STRONG ALE",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "americanale",
+					"label": "AMERICAN ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "americanpaleale",
+							"label": "AMERICAN PALE ALE",
+							"description": ""
+						},
+						{
+							"id": "americanamberale",
+							"label": "AMERICAN AMBER ALE",
+							"description": ""
+						},
+						{
+							"id": "americanbrownale",
+							"label": "AMERICAN BROWN ALE",
+							"description": ""
+						}		
+					]
+				},
+				{
+					"id": "englishbrownale",
+					"label": "ENGLISH BROWN ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "mildenglishbrownale",
+							"label": "MILD ENGLISH BROWN ALE",
+							"description": ""
+						},
+						{
+							"id": "southernenglishbrownale",
+							"label": "SOUTHERN ENGLISH BROWN ALE",
+							"description": ""
+						},
+						{
+							"id": "northernenglishbrownale",
+							"label": "NORTHERN ENGLISH BROWN ALE",
+							"description": ""
+						}		
+					]
+				},
+				{
+					"id": "porter",
+					"label": "PORTER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "brownporter",
+							"label": "BROWN PORTER",
+							"description": ""
+						},
+						{
+							"id": "robustporter",
+							"label": "ROBUST PORTER",
+							"description": ""
+						},
+						{
+							"id": "balticporter",
+							"label": "BALTIC PORTER",
+							"description": ""
+						}		
+					]
+				},
+				{
+					"id": "stout",
+					"label": "STOUT",
+					"description": "",
+					"varieties": [
+						{
+							"id": "drystout",
+							"label": "DRY STOUT",
+							"description": ""
+						},
+						{
+							"id": "sweetstout",
+							"label": "SWEET STOUT",
+							"description": ""
+						},
+						{
+							"id": "oatmealstout",
+							"label": "OATMEAL STOUT",
+							"description": ""
+						},
+						{
+							"id": "foreignextrastout",
+							"label": "FOREIGN EXTRA STOUT",
+							"description": ""
+						},
+						{
+							"id": "americanstout",
+							"label": "AMERICAN STOUT",
+							"description": ""
+						},
+						{
+							"id": "russianimperialstout",
+							"label": "RUSSIAN IMPERIAL STOUT",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "indiapaleale",
+					"label": "INDIA PALE ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "englishipa",
+							"label": "ENGLISH IPA",
+							"description": ""
+						},
+						{
+							"id": "americanipa",
+							"label": "AMERICAN IPA",
+							"description": ""
+						},
+						{
+							"id": "imperialipa",
+							"label": "IMPERIAL IPA",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "belgianandfrenchale",
+					"label": "BELGIAN AND FRENCH ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "witbier",
+							"label": "WITBIER",
+							"description": ""
+						},
+						{
+							"id": "belgianpaleale",
+							"label": "BELGIAN PALE ALE",
+							"description": ""
+						},
+						{
+							"id": "saison",
+							"label": "SAISON",
+							"description": ""
+						},
+						{
+							"id": "bieredegarde",
+							"label": "BIERE DE GARDE",
+							"description": ""
+						},
+						{
+							"id": "belgianspecialtyale",
+							"label": "BELGIAN SPECIALTY ALE",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "sourale",
+					"label": "SOUR ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "berlinerweisse",
+							"label": "BERLINER WEISSE",
+							"description": ""
+						},
+						{
+							"id": "flandersredale",
+							"label": "FLANDERS RED ALE",
+							"description": ""
+						},
+						{
+							"id": "flandersbrownale",
+							"label": "FLANDERS BROWN ALE",
+							"description": ""
+						},
+						{
+							"id": "straightunblendedlambic",
+							"label": "STRAIGHT UNBLENDED LAMBIC",
+							"description": ""
+						},
+						{
+							"id": "gueuze",
+							"label": "GUEUZE",
+							"description": ""
+						},
+						{
+							"id": "fruitlambic",
+							"label": "FRUIT LAMBIC",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "belgianstrongale",
+					"label": "BELGIAN STRONG ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "belgianblondeale",
+							"label": "BELGIAN BLONDE ALE",
+							"description": ""
+						},
+						{
+							"id": "belgiandubbel",
+							"label": "BELGIAN DUBBEL",
+							"description": ""
+						},
+						{
+							"id": "belgiantripel",
+							"label": "BELGIAN TRIPEL",
+							"description": ""
+						},
+						{
+							"id": "belgiangoldenstrongale",
+							"label": "BELGIAN GOLDEN STRONG ALE",
+							"description": ""
+						},
+						{
+							"id": "belgiandarkstrongale",
+							"label": "BELGIAN DARK STRONG ALE",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "strongale",
+					"label": "STRONG ALE",
+					"description": "",
+					"varieties": [
+						{
+							"id": "oldale",
+							"label": "OLD ALE",
+							"description": ""
+						},
+						{
+							"id": "englishbarleywine",
+							"label": "ENGLISH BARLEY WINE",
+							"description": ""
+						},
+						{
+							"id": "americanbarleywine",
+							"label": "AMERICAN BARLEY WINE",
+							"description": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "lager",
+			"label": "LAGER",
+			"description": "",
+			"varieties": [
+				{
+					"id": "lightlager",
+					"label": "LIGHT LAGER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "lightamericanlager",
+							"label": "LIGHT AMERICAN LAGER",
+							"description": ""
+						},
+						{
+							"id": "standardamericanlager",
+							"label": "STANDARD AMERICAN LAGER",
+							"description": ""
+						},
+						{
+							"id": "premiumamericanlager",
+							"label": "PREMIUM AMERICAN LAGER",
+							"description": ""
+						},
+						{
+							"id": "munichhelles",
+							"label": "MUNICH HELLES",
+							"description": ""
+						},
+						{
+							"id": "dortmunderexport",
+							"label": "DORTMUNDER EXPORT",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "pilsener",
+					"label": "PILSENER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "germanpilsener",
+							"label": "GERMAN PILSENER (PILS)",
+							"description": ""
+						},
+						{
+							"id": "bohemianpilsener",
+							"label": "BOHEMIAN PILSENER",
+							"description": ""
+						},
+						{
+							"id": "classicamericanpilsener",
+							"label": "CLASSIC AMERICAN PILSENER",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "europeanamberale",
+					"label": "EUROPEAN AMBER LAGER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "viennalager",
+							"label": "VIENNA LAGER",
+							"description": ""
+						},
+						{
+							"id": "oktoberfest",
+							"label": "OKTOBERFEST / MÄRZEN",
+							"description": ""
+						},
+						{
+							"id": "darklager",
+							"label": "DARK LAGER",
+							"description": ""
+						},
+						{
+							"id": "darkamericanlager",
+							"label": "DARK AMERICAN LAGER",
+							"description": ""
+						},
+						{
+							"id": "munichdunkel",
+							"label": "MUNICH DUNKEL",
+							"description": ""
+						},
+						{
+							"id": "schwarzbier",
+							"label": "SCHWARZBIER (BLACK BEER)",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "bock",
+					"label": "BOCK",
+					"description": "",
+					"varieties": [
+						{
+							"id": "maibock",
+							"label": "MAIBOCK / HELLES BOCK",
+							"description": ""
+						},
+						{
+							"id": "traditionalbock",
+							"label": "TRADITIONAL BOCK",
+							"description": ""
+						},
+						{
+							"id": "doppelbock",
+							"label": "DOPPELBOCK",
+							"description": ""
+						},
+						{
+							"id": "eisbock",
+							"label": "EISBOCK",
+							"description": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "mixedstyle",
+			"label": "MIXED STYLE",
+			"description": "",
+			"varieties": [
+				{
+					"id": "lighthybridbeer",
+					"label": "LIGHT HYBRID BEER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "creamale",
+							"label": "CREAM ALE",
+							"description": ""
+						},
+						{
+							"id": "blondeale",
+							"label": "BLONDE ALE",
+							"description": ""
+						},
+						{
+							"id": "kolsch",
+							"label": "KÖLSCH",
+							"description": ""
+						},
+						{
+							"id": "americanwheatorrye",
+							"label": "AMERICAN WHEAT OR RYE",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "amberhybridbeer",
+					"label": "AMBER HYBRID BEER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "northerngermanaltbier",
+							"label": "NORTHERN GERMAN ALTBIER",
+							"description": ""
+						},
+						{
+							"id": "californiacommonbeer",
+							"label": "CALIFORNIA COMMON BEER",
+							"description": ""
+						},
+						{
+							"id": "dusseldorfaltbier",
+							"label": "DUSSELDORF ALTBIER",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "germanwheatandryebeer",
+					"label": "GERMAN WHEAT AND RYE BEER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "weizen",
+							"label": "WEIZEN / WEISS BIER",
+							"description": ""
+						},
+						{
+							"id": "dunkelweizen",
+							"label": "DUNKELWEIZEN",
+							"description": ""
+						},
+						{
+							"id": "weizenbock",
+							"label": "WEIZENBOCK",
+							"description": ""
+						},
+						{
+							"id": "roggenbier",
+							"label": "ROGGENBIER (RYE BEER)",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "fruitbeer",
+					"label": "FRUIT BEER",
+					"description": "",
+					"varieties": [
+					]
+				},
+				{
+					"id": "spiceherbspecialtybeer",
+					"label": "SPICE / HERB / SPECIALTY BEER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "spiceherbvegetablebeer",
+							"label": "SPICE / HERB / VEGETABLE BEER",
+							"description": ""
+						},
+						{
+							"id": "christmaswinterspecialtyspicedbeer",
+							"label": "CHRISTMAS / WINTER / SPECIALTY SPICED BEER",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "smokeflavoredandwoodagedbeer",
+					"label": "SMOKE FLAVORED AND WOOD AGED BEER",
+					"description": "",
+					"varieties": [
+						{
+							"id": "classicrauchbier",
+							"label": "CLASSIC RAUCHBIER",
+							"description": ""
+						},
+						{
+							"id": "othersmokedbeer",
+							"label": "OTHER SMOKED BEER",
+							"description": ""
+						},
+						{
+							"id": "woodagedbeer",
+							"label": "WOOD AGED BEER",
+							"description": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "meadandcider",
+			"label": "MEAD AND CIDER",
+			"description": "",
+			"varieties": [
+				{
+					"id": "traditionalmead",
+					"label": "TRADITIONAL MEAD",
+					"description": "",
+					"varieties": [
+						{
+							"id": "drymead",
+							"label": "DRY MEAD",
+							"description": ""
+						},
+						{
+							"id": "semisweetmead",
+							"label": "SEMI-SWEET MEAD",
+							"description": ""
+						},
+						{
+							"id": "sweetmead",
+							"label": "SWEET MEAD",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "melomel",
+					"label": "MELOMEL (FRUIT MEAD)",
+					"description": "",
+					"varieties": [
+						{
+							"id": "cyser",
+							"label": "CYSER (APPLE MELOMEL)",
+							"description": ""
+						},
+						{
+							"id": "pyment",
+							"label": "PYMENT (GRAPE MELOMEL)",
+							"description": ""
+						},
+						{
+							"id": "otherfruitmelomel",
+							"label": "OTHER FRUIT MELOMEL",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "othermead",
+					"label": "OTHER MEAD",
+					"description": "",
+					"varieties": [
+						{
+							"id": "methglin",
+							"label": "METHEGLIN (SPICED MEAD)",
+							"description": ""
+						},
+						{
+							"id": "braggot",
+							"label": "BRAGGOT (BARLEY MEAD)",
+							"description": ""
+						},
+						{
+							"id": "opencategorymead",
+							"label": "OPEN CATEGORY MEAD",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "standardciderandperry",
+					"label": "STANDARD CIDER AND PERRY",
+					"description": "",
+					"varieties": [
+						{
+							"id": "commoncider",
+							"label": "COMMON CIDER",
+							"description": ""
+						},
+						{
+							"id": "englishcider",
+							"label": "ENGLISH CIDER",
+							"description": ""
+						},
+						{
+							"id": "frenchcider",
+							"label": "FRENCH CIDER",
+							"description": ""
+						},
+						{
+							"id": "commonperry",
+							"label": "COMMON PERRY",
+							"description": ""
+						},
+						{
+							"id": "traditionalperry",
+							"label": "TRADITIONAL PERRY",
+							"description": ""
+						}
+					]
+				},
+				{
+					"id": "specialtyciderandperry",
+					"label": "SPECIALTY CIDER AND PERRY",
+					"description": "",
+					"varieties": [
+						{
+							"id": "newenglandcider",
+							"label": "NEW ENGLAND CIDER",
+							"description": ""
+						},
+						{
+							"id": "fruitcider",
+							"label": "FRUIT CIDER",
+							"description": ""
+						},
+						{
+							"id": "applewine",
+							"label": "APPLE WINE",
+							"description": ""
+						},
+						{
+							"id": "otherspecialtyciderandperry",
+							"label": "OTHER SPECIALTY CIDER AND PERRY",
+							"description": ""
+						}
+					]
+				}
+			]
+		}	
+	]
+}
