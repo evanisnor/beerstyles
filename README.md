@@ -3,8 +3,6 @@ beerstyles
 
 A d3 visualization of Beer Styles
 
-[See it!](http://leadhead9.github.io/beerstyles/)
-
 
 Resources
 ----------
